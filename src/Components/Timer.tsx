@@ -9,7 +9,6 @@ export default function Timer({ setTimerExpired }: TimerProps) {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      console.log("print the counter", counter);
       if (counter > 0) setCounter(counter - 1);
       else {
         setTimerExpired();

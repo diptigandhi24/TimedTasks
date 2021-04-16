@@ -18,17 +18,17 @@
   margin-top: 15%;
 }
 
-.red-task {
-  background-color: "red";
-  padding: "10px";
-  border: "1px solid black";
-  width: "45%";
-  margin: "5px 25%";
+.redTask {
+  background-color: red;
+  padding: 10px;
+  border: 1px solid black;
+  width: 45%;
+  margin: 5px 25%;
 }
-.Green-task {
-  background-color: "green";
-  padding: "10px";
-  border: "1px solid black";
-  width: "45%";
-  margin: "5px 25%";
+.greenTask {
+  background-color: green;
+  padding: 10px;
+  border: 1px solid black;
+  width: 45%;
+  margin: 5px 25%;
 }

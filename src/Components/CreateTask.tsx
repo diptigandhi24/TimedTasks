@@ -19,7 +19,6 @@ export default function CreateTask({ setIsOpen, addTask }: TaskProps) {
     addTask({ title: inputTitle, onTime: isTimerExpired });
     setIsOpen(false);
     updateInputTitle("");
-    console.log("Timer Expired", isTimerExpired);
   }
 
   return (

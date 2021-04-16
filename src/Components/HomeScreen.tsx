@@ -17,13 +17,13 @@ export default function Home() {
           {taskList.map((task) => {
             if (task.onTime) {
               return (
-                <li key={task.title} className="red-task">
+                <li key={task.title} className="redTask">
                   {task.title}
                 </li>
               );
             } else {
               return (
-                <li key={task.title} className="green-task">
+                <li key={task.title} className="greenTask">
                   {task.title}
                 </li>
               );
